@@ -1,0 +1,414 @@
+html {
+	height:100%;
+}
+
+body {
+	padding:0px;
+	margin:0px;
+	height:100%;
+}
+
+* {
+	FONT-SIZE: 11px; FONT-FAMILY: Verdana, 'Lucida Grande', Arial, sans-serif; color: #000000;
+}
+
+input {
+	border-style: solid;
+	border-width : 2px;
+	width: 200px;
+	height: 30px;
+	border-color : #000000;
+	border-radius: 5px;
+}
+
+.lienFondVert {
+	padding: 7px;
+	/* border: 2px black solid; */
+	background-color: #000000;
+	color:#EEEEEE;
+	font-size: 17px;
+	border-radius: 4px;
+	text-decoration: underline;
+}
+
+.lienFondVert:hover {
+	color:#bbbbbb;
+	text-decoration: underline;
+	BACKGROUND:#EEEEEE;
+	color: #000000;
+}
+
+.lienFondBlanc {
+	color:#006573;
+	text-decoration: underline;
+}
+
+.lienFondBlanc:hover {
+	color:#EEEEEE;
+	text-decoration: underline;
+	BACKGROUND:#006573;
+}
+
+.tableLoginGSS {
+	width:100%;
+	height:100%;
+	/* BACKGROUND:gray; */
+}
+
+/* .tableLoginGSS tr td {
+	text-align: center;
+}  */
+
+.fortable1{
+	float : left;
+	width:50%;
+	height:100%;
+	margin: 0;
+	background: #000000;
+}
+
+.fortable2{
+	position: absolute;
+	top: 50%;
+	left: 25%;
+	transform: translate(-50%, -50%);
+	height: 84%;
+	width: 50%;
+	margin-left: 50%;
+	/* background-color: #006573; */
+	display: flex;
+	justify-content: center;
+}
+
+.fortable1 p{
+	text-align: center;
+	font-size: 3em;
+	font-family: 'Segoe UI';
+	color: #FFFFFF;
+	top: 60%;
+	left: 25%;
+	transform: translate(0%, 40%);
+}
+
+.fortable1 .logo_image1{
+	position: absolute;
+	top: 50%;
+	left: 25%;
+	transform: translate(-50%, -50%);
+	height: 63%;
+	width: auto;
+}
+
+.table2_content{
+	/* background-color: #00FF00; */
+	width: 70%;
+	height: 80%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 14px;
+	border-radius: 5px;
+	border: 3px #000000 solid;
+}
+
+.table2_content .p1{
+	font-size: 40px;
+}
+
+.table2_content .p2{
+	font-size: 26px;
+	padding-left: 10%;
+}
+
+.BandeauHaut {
+	width:100%;
+	height:20%;
+	BACKGROUND:#555555;
+	display: flex;
+	align-items: center;
+}
+
+.BandeauHaut{
+	color:#EEEEEE;
+}
+
+.BandeauHaut .administration{
+	text-align: center;
+	background-color: #000000;
+	padding: 20px;
+	margin: 20%;
+}
+
+.compte{
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.stock{
+	font-size: 20px;
+}
+
+.parametrage{
+	font-size: 15px;
+}
+
+.Destinataire{
+	font-size: 14px;
+}
+
+.spanNomStock, .spanTitreAdministration {
+	color:#EEEEEE;
+	FONT-SIZE: 20px;
+	font-weight: bold;
+}
+
+a {
+	FONT-SIZE: 16px;
+	TEXT-DECORATION:none;COLOR: #1C6EEE;
+}
+
+a:hover {
+	COLOR: #1b0990;
+}
+
+.tableCommune {
+	border-collapse:collapse;
+	text-align: center;
+}
+
+.tableCommune tr th {
+	padding:20px;
+	FONT-SIZE: 16px;
+	padding-left:20px;
+	padding-right:20px;
+	BACKGROUND:#bbbbbb;
+	border: 2px black solid;
+}
+
+.tableCommune tr {
+	BACKGROUND:#ffffff;
+	border: 2px black solid;
+}
+
+.tableCommune tr:hover {
+	BACKGROUND:#ffffff;
+	border: 2px black solid;
+}
+
+.tableCommune tr td {
+	FONT-SIZE: 16px;
+	border: 2px black solid;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:12px;
+	padding-right:12px;
+}
+
+.bouton1 {
+	padding:10px 0 10px 0;
+	color:#fff;
+	font-size: 30px;
+	cursor:pointer;
+	border-radius:2px;
+	border:none;
+	width:40%;
+	margin-left: 30%;
+}
+
+.bouton1 {
+	background:#000000;
+}
+
+.bouton1:focus {
+	outline: none;
+}
+
+.bouton1:hover {
+	background:#bbbbbb;
+	color: #000000;
+	border: 2px black solid;
+}
+
+
+/* button {
+	padding:6px 0 6px 0;
+	color:#fff;
+	cursor:pointer;
+	border-radius:2px;
+	border:none;
+	width:100px;
+}
+
+.bouton {
+	background:#56abac;
+}
+
+.bouton:focus {
+	outline: none;
+}
+
+.bouton:hover {
+	background:#f4d4ad;
+}
+ */
+.boutonValider {
+	background:#298A08;
+	height: 40px;
+	width: 120px;
+	font-size: 20px;
+	border-radius: 6px ;
+	font-weight: bold;
+}
+
+.boutonValider:hover {
+	background:#00FF00;
+}
+
+.boutonAnnuler {
+	height: 40px;
+	width: 120px;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 6px ;
+	background:#d34836;
+}
+
+.boutonAnnuler:hover {
+	background:#FF0000;
+}
+
+.menu {
+	color:#FFFFFF;
+	display:block;
+	width:400px;
+	height:40px;
+	font-weight:bold;
+	font-size: 20px;
+	BACKGROUND:#000000;
+	/* text-align: center; */
+	line-height: 36px;
+	padding: 3px;
+	border-radius: 2px;
+}
+
+.menu:hover {
+	BACKGROUND:#555555;
+	color: #000000;
+}
+
+.tdDroiteStock {
+	border-left: 2px solid #006573;
+	FONT-SIZE: 10px;
+	font-weight:bold;
+}
+
+.tableStockADroite {
+	border-collapse:separate;
+}
+
+.tableStockADroite tr th {
+	padding:4px;
+	FONT-SIZE:9px;
+}
+
+.tableStockADroite tr {
+	BACKGROUND:#f4d4ad;
+	font-weight:normal;
+}
+
+.tableStockADroite tr td {
+	padding:4px;
+	BACKGROUND:#f4e4d0;
+	FONT-SIZE: 9px;
+}
+
+.tdQuantite {
+	text-align:center;
+}
+
+.tdQuantiteNegative {
+	text-align:center;
+	font-weight:bold;
+	color:#EE0000;
+}
+
+.tdQuantiteVirtuelle {
+	text-align:center;
+	color:#006573;
+}
+
+.tdQuantiteVirtuelleNegative {
+	text-align:center;
+	font-weight:bold;
+	color:#EE0000;
+}
+
+.tdPrix {
+	text-align:right;
+}
+
+.attention {
+	color:#EE0000;
+	font-size: 17px;
+}
+
+.attention b {
+	color:#EE0000;
+	font-size: 19px;
+}
+
+.erreur {
+	color:red;
+	font-weight:bold;
+	font-size: 20px;
+}
+
+img  {
+    border:0px;
+}
+
+.logo_print{
+	width: 40%;
+	margin-bottom: -5%;
+	margin-left: 10%;
+}
+
+.table_content{
+	padding-top: -10px;
+}
+
+
+.titrecontent{
+	text-align: center;
+	/* margin-bottom: 0%; */
+}
+
+.titrecontent h1{
+	font-size: 20px;
+}
+
+.datecontent{
+	text-align: center;
+	/* margin-top: -20%; */
+}
+
+.datecontent h1{
+	font-size: 20px;
+}
+
+.signature{
+	display: none;
+}
+
+footer {
+	position: fixed;
+	padding: 5px;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #000000;
+	color: white;
+	text-align: center;
+}

@@ -1,0 +1,233 @@
+/* .contact_container{
+    margin:20px
+}
+.contactez-nous {
+    width: 650px;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 0 50px 0 50px;
+    background: darkgray;
+}
+    
+.contactez-nous > h1 {
+    font-weight: 500;
+}
+    
+.contactez-nous > p {
+    font-weight: 300;
+}
+    
+form div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 83px;
+    margin-top: 25px;
+}
+    
+form div > label {
+    margin-bottom: 7px;
+    font-weight: 600;
+}
+    
+form div > input, form div > select, form div > textarea {
+    background: #999;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Montserrat, "sans-serif";
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.25);
+}
+    
+form div > input, form div > select {
+    height: 50px;
+    padding-left: 10px;
+}
+    
+form div > select {
+    appearance: none;
+    background-size: 15px;
+}
+    
+form div > textarea {
+    height: 195px;
+    padding: 15px 0px 0px 10px;
+}
+    
+form div > input::placeholder, form div > textarea::placeholder {
+    color: white;
+}
+    
+form div > select:invalid {
+    color: white;
+}
+    
+form div > select option {
+    background: white;
+    color: #303030;
+    }
+    
+form div:last-child {
+    align-items:center;
+    margin-top: 20px;
+}
+    
+form button {
+    width: 450px;
+    max-width: 500px;
+    height: 60px;
+    font-weight: 700;
+    font-size: 28px;
+    background: white;
+    border: rgba(48, 48, 48, 0.5) solid 1px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    color: #303030;
+}*/
+
+.error{
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    top: 26%;
+}
+
+.bodycont{
+    background-image: url('../img/wallpaper.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Numans', sans-serif;
+    align-content: center;
+}
+.form_container{
+	width: 900px;
+	height: 800px;
+	margin: 5% auto;
+	box-shadow: 0px 0px 10px #C8C7D9;
+	position: relative;
+    background-color: lightslategrey;
+}
+.map{
+		width: 45%;
+		float: left;
+    }
+	.contact-form{
+		width: 53%;
+		margin-left : 2%;
+		float: left;
+    }
+		.title{
+			font-size: 2.5em;
+			font-weight: 700;
+			margin: 5% 8%;
+        }
+		.subtitle{
+			font-size: 1.2em;
+			font-weight: 400;
+			margin: 0 4% 5% 8%;
+        }
+		
+		input,
+		textarea{
+			width: 330px;
+			padding: 3%;
+			margin: 2% 8%;
+			border: 1px solid;
+        }
+		.btn-send{
+			width: 180px;
+			height: 60px;
+			font-weight: 700;
+            background-color: black;
+            color: #C8C7D9;
+			margin: 2% 8%;
+			border: none;
+        }
+/* login for employes */
+
+    .employe_container{
+        background-image: url('../img/wallpaper.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+        font-family: 'Numans', sans-serif;
+        align-content: center;
+    }
+
+    .card_container{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .card{
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 400px;
+    position: relative;
+    background-color: rgba(0,0,0,0.5) !important;
+    }
+        
+    .card-header h1{
+    color: white;
+    }
+       
+    input:focus{
+    outline: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important;
+    
+    }
+    
+    /* .rpember{
+    color: white;
+    }
+    
+    .remember input
+    {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+    } */
+    
+    .login_btn{
+    color: black;
+    background-color: #FFC312;
+    width: 100px;
+    }
+    
+    .login_btn:hover{
+    color: black;
+    background-color: white;
+    }
+    
+    .links{
+    color: white;
+    }
+    
+    .links a{
+    margin-left: 4px;
+    }
+    .footeremp{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 14px;
+    background-color: black;
+    color: aliceblue;
+    height: 54px;
+    }
+    .errorcontainer{
+        position: relative;
+        background-color: red;
+        color: white;
+        padding: 10px;
+    }
+
+  
