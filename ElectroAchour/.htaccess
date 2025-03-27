@@ -1,6 +1,0 @@
-
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^eachour\.com$ [OR]
-RewriteCond %{HTTP_HOST} ^www\.eachour\.com$
-RewriteRule ^/?$ "https\:\/\/www\.eachour\.com\/" [R=301,L]
-
